@@ -1,5 +1,5 @@
+![deeplabv3+](https://user-images.githubusercontent.com/52816016/189051711-6f1e8479-48b0-4865-bdf8-b55d7a23f0c9.png)
 # DeepLabv3-
-
 基于pytorch的DeepLabv3+语义分割实现
 DeepLab系列从v1-v3+作为语义分割邻域中经典的网络模型，而V3+作为Deeplab所有思想的一个集合，实现Deeplabv3+也是入门语义分割邻域一个重要的知识点。
 
@@ -17,6 +17,8 @@ DeepLabv3的主要工作是改进了ASPP模块，提出串联或者并联ASPP模
 
 deepLabv3+
 DeepLabv3+结合之前DeepLab系列的思想，提出编码-解码结构用于语义分割。在编码器阶段使用Xception结构以及ASPP结合作为图像的特征提取，在Xception模型中采用深度可分离卷积降低参数量。
+
 ————————————————
 版权声明：本文为CSDN博主「卡子爹」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/weixin_44422920/article/details/120709729
+![deeplabv3+](https://user-images.githubusercontent.com/52816016/189051711-6f1e8479-48b0-4865-bdf8-b55d7a23f0c9.png)
